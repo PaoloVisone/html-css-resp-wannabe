@@ -129,12 +129,20 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+@media screen and (min-width: 769px) {
+
+    .container {
+        width: auto;
+    }
+
+}
+
 @media screen and (max-width:768px) {
 
 
 
     .container {
-        width: 768px;
+        width: auto;
     }
 
 }
@@ -144,11 +152,19 @@ img {
 
 
     .container {
-        width: 480px;
+        width: auto;
+    }
+
+    .text {
+        margin-bottom: 2.5rem;
+    }
+
+    .col-left {
+        margin-bottom: 2.5rem;
     }
 
     .row {
-        display: block;
+        flex-direction: column;
     }
 
     .lessons .col,
